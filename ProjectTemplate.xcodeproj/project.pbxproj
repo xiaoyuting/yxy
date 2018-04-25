@@ -109,7 +109,6 @@
 		87F5CF4E208CDE0900C241F7 /* ThreeSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF42208CDE0600C241F7 /* ThreeSecondCell.m */; };
 		87F5CF4F208CDE0900C241F7 /* ThreeFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF45208CDE0700C241F7 /* ThreeFirstCell.m */; };
 		87F5CF50208CDE0900C241F7 /* ThreeThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF46208CDE0700C241F7 /* ThreeThirdCell.m */; };
-		87F5CF51208CDE0900C241F7 /* LEETheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF48208CDE0800C241F7 /* LEETheme.m */; };
 		87F5CF52208CDE0900C241F7 /* ThreeFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF4B208CDE0800C241F7 /* ThreeFourthCell.m */; };
 		87F5CF55208CDEEF00C241F7 /* ThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF53208CDEEF00C241F7 /* ThreeModel.m */; };
 		87F5CF5C208CDFA500C241F7 /* Imgextra.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5CF57208CDFA300C241F7 /* Imgextra.m */; };
@@ -627,11 +626,9 @@
 		87F5CF41208CDE0500C241F7 /* ThreeBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeBaseCell.m; sourceTree = "<group>"; };
 		87F5CF42208CDE0600C241F7 /* ThreeSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSecondCell.m; sourceTree = "<group>"; };
 		87F5CF43208CDE0600C241F7 /* ThreeBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeBaseCell.h; sourceTree = "<group>"; };
-		87F5CF44208CDE0600C241F7 /* LEETheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEETheme.h; sourceTree = "<group>"; };
 		87F5CF45208CDE0700C241F7 /* ThreeFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFirstCell.m; sourceTree = "<group>"; };
 		87F5CF46208CDE0700C241F7 /* ThreeThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeThirdCell.m; sourceTree = "<group>"; };
 		87F5CF47208CDE0700C241F7 /* ThreeThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeThirdCell.h; sourceTree = "<group>"; };
-		87F5CF48208CDE0800C241F7 /* LEETheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEETheme.m; sourceTree = "<group>"; };
 		87F5CF49208CDE0800C241F7 /* ThreeFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFirstCell.h; sourceTree = "<group>"; };
 		87F5CF4A208CDE0800C241F7 /* ThreeFourthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFourthCell.h; sourceTree = "<group>"; };
 		87F5CF4B208CDE0800C241F7 /* ThreeFourthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFourthCell.m; sourceTree = "<group>"; };
@@ -1346,8 +1343,6 @@
 				87F5CF53208CDEEF00C241F7 /* ThreeModel.m */,
 				0E2B77241FCD064500524CD3 /* GMinfoVC.h */,
 				0E2B771D1FCD064300524CD3 /* GMinfoVC.m */,
-				87F5CF44208CDE0600C241F7 /* LEETheme.h */,
-				87F5CF48208CDE0800C241F7 /* LEETheme.m */,
 				87F5CF43208CDE0600C241F7 /* ThreeBaseCell.h */,
 				87F5CF41208CDE0500C241F7 /* ThreeBaseCell.m */,
 				87F5CF49208CDE0800C241F7 /* ThreeFirstCell.h */,
@@ -2968,7 +2963,7 @@
 				0E0ADCE61F7CD22A009232F8 /* Sources */,
 				0E0ADCE71F7CD22A009232F8 /* Frameworks */,
 				0E0ADCE81F7CD22A009232F8 /* Resources */,
-				A4E7C06F046AD603D69D240D /* [CP] Copy Pods Resources */,
+				E351D58C3A502D4A1F97C0E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3406,7 +3401,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4E7C06F046AD603D69D240D /* [CP] Copy Pods Resources */ = {
+		E351D58C3A502D4A1F97C0E6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3508,7 +3503,6 @@
 				0ECDC7E01FCAF9D300FA4424 /* WRNavigationBar.m in Sources */,
 				87F5D01C208ED19B00C241F7 /* CommentTableViewCell.m in Sources */,
 				0E42911F1FCFF4BE007C77FF /* GMpopView.m in Sources */,
-				87F5CF51208CDE0900C241F7 /* LEETheme.m in Sources */,
 				0E95DC261FCBA53600F5557D /* WRImageHelper.m in Sources */,
 				0E2B773A1FCD09A100524CD3 /* AppDelegate.m in Sources */,
 				87F5D625208ED5D400C241F7 /* MLTransition.m in Sources */,
@@ -3709,7 +3703,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/gm/Desktop/ProjectTemplate-master/ProjectTemplate/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/gm/yxy/ProjectTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = ProjectTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3782,7 +3776,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/gm/Desktop/ProjectTemplate-master/ProjectTemplate/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/gm/yxy/ProjectTemplate/PrefixHeader.pch;
 				INFOPLIST_FILE = ProjectTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

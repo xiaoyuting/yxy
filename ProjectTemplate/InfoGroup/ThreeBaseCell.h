@@ -11,7 +11,7 @@
 #import "UIImageView+WebCache.h"
 #import "SDCycleScrollView.h"
 #import "ThreeModel.h"
-#import "LEETheme.h"
+ 
 
 #define DAY @"day"
 

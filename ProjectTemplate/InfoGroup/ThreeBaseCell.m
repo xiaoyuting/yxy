@@ -69,13 +69,7 @@
     
     //使用标识符设置模式
     
-    self.lblTitle.lee_theme.LeeConfigTextColor(@"demovc10_cell_titlecolor");
-    
-    self.lblSubtitle.lee_theme.LeeConfigTextColor(@"demovc10_cell_summarycolor");
-    
-    self.lineView.lee_theme.LeeConfigBackgroundColor(@"demovc10_cell_linecolor");
-    
-    self.lee_theme.LeeConfigBackgroundColor(@"demovc10_cell_backgroundcolor");
+
     
 }
 

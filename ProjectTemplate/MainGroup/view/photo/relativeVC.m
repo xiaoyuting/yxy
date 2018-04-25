@@ -82,7 +82,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView clearSelectedRowsAnimated:YES];
+    //[tableView clearSelectedRowsAnimated:YES];
     
     photoVC *vc = [[photoVC alloc] init];
     [self pushViewController:vc animated:YES];

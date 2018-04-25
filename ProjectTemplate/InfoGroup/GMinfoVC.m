@@ -29,22 +29,7 @@
 
 - (void)viewDidLoad {
     
-    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"日间" style:UIBarButtonItemStyleDone target:self action:@selector(rightBarButtonItemAction:)];
-    
-    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
-    
-    rightBarButtonItem.lee_theme
-    .LeeAddCustomConfig(DAY , ^(UIBarButtonItem *item){
-        
-        item.title = @"夜间";
-        
-    }).LeeAddCustomConfig(NIGHT , ^(UIBarButtonItem *item){
-        
-        item.title = @"日间";
-    });
-    
-    self.view.lee_theme.LeeConfigBackgroundColor(@"demovc10_backgroundcolor");
-    
+ 
     self.automaticallyAdjustsScrollViewInsets = YES;
     
     [self.view addSubview:self.tv];
@@ -57,15 +42,7 @@
 
 - (void)rightBarButtonItemAction:(UIBarButtonItem *)sender{
     
-    if ([[LEETheme currentThemeTag] isEqualToString:DAY]) {
-        
-        [LEETheme startTheme:NIGHT];
-        
-    } else {
-        
-        [LEETheme startTheme:DAY];
-        
-    }
+   
     
 }
 
